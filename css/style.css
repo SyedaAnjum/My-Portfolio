@@ -1,0 +1,73 @@
+body {
+	font-size: 30px;
+	height: 50%
+}
+
+#mainNav .navbar-brand {
+    color: #03A9F4;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    
+    color: #6a93b3;
+}
+
+
+header.masthead {
+    text-align: center;
+    color: #e47098;
+}
+
+#skills {
+
+	text-align: center;
+	padding: 20px;
+}
+
+img {
+	height: 250px;
+	width: 150px;
+}
+
+#about {
+    padding: 50px;
+}
+
+#contact {
+    text-align: center!important;
+    padding: 50px;
+}
+
+a {
+    color: #21201f;
+}
+
+.bg-dark {
+    background-color: #4a8d96!important;
+}
+
+
+@media screen and (max-width:991px) and ( min-width: 768px ){
+	.intro-text{
+		height: auto;
+      	font-size: 1.2em;
+		font-weight: 600px;
+	
+	}
+}
+
+
+@media screen and (min-width: 412px) and (max-width: 732px){
+
+		#about{
+
+			font-size: 0.80em;
+		}
+
+
+
+
+
+
+
+
