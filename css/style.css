@@ -21,7 +21,18 @@ img {
 }
 
 #abt-content {
-    font-size: 0.8em;
+    font-size: 30px;
+}
+
+.timeline .timeline-body>p, .timeline .timeline-body>ul {
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.timeline .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+    font-size: 30px;
 }
 
 p {
@@ -96,18 +107,17 @@ a {
     background-color: #4a8d96!important;
 }
 
-
-
-
-
-@media screen and (max-width:991px) and ( min-width: 768px ){
-	.intro-text{
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	.intro-text .into-heading{
 		height: auto;
-      	font-size: 1.2em;
+		font-size: 1.2em;
 		font-weight: 600px;
-	
 	}
 }
+
+
+
+
 
 
 @media screen and (min-width: 412px) and (max-width: 732px){
@@ -116,9 +126,10 @@ a {
 
 			font-size: 0.80em;
 		}
+	}
 
 
-@media (min-width: 409px) and (max-width: 1002px) {
+@media (min-width: 309px) and (max-width: 713px) {
 header.masthead .intro-text .intro-heading {
     font-size: 1em;
     font-weight: 500;
@@ -160,6 +171,12 @@ header.masthead .intro-text .intro-heading {
 		}
 }
 
+@media (min-width: 320px) and (max-width: 568px) {
+
+	#abt-content, .timeline .timeline-body>p, .timeline .timeline-body>ul{
+		font-size: 20px;
+	}
+}
 
 
 
