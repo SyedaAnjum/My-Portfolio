@@ -4,6 +4,12 @@ body {
 
 }
 
+section {
+    padding: 100px 0;
+}
+
+
+
 #abt {
 	padding-top: 20px;
 
@@ -38,6 +44,11 @@ header.masthead
     width: 50%;
 }
 
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+    font-size: 20px;
+}
 
 
 
@@ -107,9 +118,9 @@ a {
 		}
 
 
-@media (min-width: 309px) and (max-width: 1002px) {
+@media (min-width: 409px) and (max-width: 1002px) {
 header.masthead .intro-text .intro-heading {
-    font-size: 40px;
+    font-size: 1em;
     font-weight: 500;
     line-height: 50px;
     margin-bottom: 50px;
