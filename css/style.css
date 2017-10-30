@@ -1,37 +1,76 @@
 body {
 	font-size: 30px;
 	height: 50%
+
 }
 
+#abt {
+	padding-top: 20px;
+
+}
+img {
+	max-width: 50%;
+     height: auto;
+   vertical-align: middle;
+}
+
+#abt-content {
+    font-size: 0.8em;
+}
+
+p {
+    line-height: 1;
+}
+
+header.masthead 
+.intro-text .intro-heading {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.skills {
+    text-align: center;
+    padding: 20px;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+
+
+
 #mainNav .navbar-brand {
-    color: #03A9F4;
+    color: #FFC107;
+    margin-right: 50px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
     
-    color: #6a93b3;
+    color: #FFC107;
 }
 
 
 header.masthead {
     text-align: center;
-    color: #e47098;
+    color: #13a3e4;
 }
 
 #skills {
 
 	text-align: center;
 	padding: 20px;
+	font-size: 20px;
 }
 
-img {
-	height: 250px;
-	width: 150px;
-}
+#skills  img{
+     max-width: 250px;
+     height: 150px;
+   }
 
-#about {
-    padding: 50px;
-}
+
+
 
 #contact {
     text-align: center!important;
@@ -45,6 +84,9 @@ a {
 .bg-dark {
     background-color: #4a8d96!important;
 }
+
+
+
 
 
 @media screen and (max-width:991px) and ( min-width: 768px ){
@@ -63,6 +105,50 @@ a {
 
 			font-size: 0.80em;
 		}
+
+
+@media (min-width: 309px) and (max-width: 1002px) {
+header.masthead .intro-text .intro-heading {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px)
+   
+   .order-md-2;{
+
+   }
+ @media (min-width: 768px)  
+
+   .col-md-6 {
+   	max-width: 50%
+   }
+
+
+@media screen and (min-width: 320px){
+    img {
+     max-width: 50%;
+     height: auto;
+   }
+}
+
+
+@media screen and (max-width: 445px){
+	.skills, #contact, #abt{
+
+			font-size: 0.85em;
+		}
+
+		.intro-text {
+
+			padding-bottom: 4em;
+
+		}
+}
+
 
 
 
