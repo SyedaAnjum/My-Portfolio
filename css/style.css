@@ -107,6 +107,15 @@ a {
     background-color: #4a8d96!important;
 }
 
+
+b, strong {
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+
+
 @media screen and (max-width: 991px) and (min-width: 768px) {
 	.intro-text .into-heading{
 		height: auto;
@@ -115,8 +124,9 @@ a {
 	}
 }
 
-
-
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+}
 
 
 
@@ -129,7 +139,8 @@ a {
 	}
 
 
-@media (min-width: 309px) and (max-width: 713px) {
+
+@media (min-width: 309px) and (max-width: 1002px) {
 header.masthead .intro-text .intro-heading {
     font-size: 1em;
     font-weight: 500;
@@ -169,6 +180,7 @@ header.masthead .intro-text .intro-heading {
 			padding-bottom: 4em;
 
 		}
+	   
 }
 
 @media (min-width: 320px) and (max-width: 568px) {
@@ -179,9 +191,22 @@ header.masthead .intro-text .intro-heading {
 }
 
 
+@media (min-width: 320px) and (max-width: 568px) {
 
+	#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 70%;
+    }
 
+}
 
+@media (min-width: 320px) and (max-width: 545px) {
+
+	  #abt .text-center section-head {
+    
+    font-size: 25px;
+    
+    }
+}
 
 
 
